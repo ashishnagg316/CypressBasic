@@ -1,0 +1,25 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "mochawesomeTest": "npm run test -- --reporter mochawesome",
+    "dashboardTest" : "npm run test -- --record --key 9a5e5de1-c24f-4fa7-90b3-4cc7d9dade70",
+    "frameworkTest" : "npm run test -- --spec \"cypress/integration/Framework/*\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^9.0.0",
+    "mochawesome": "^6.2.2"
+  },
+  "dependencies": {
+    "get-ssl-certificate": "^2.3.3"
+  }
+}
