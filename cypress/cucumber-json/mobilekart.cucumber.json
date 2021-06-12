@@ -1,0 +1,123 @@
+[
+  {
+    "description": "    purchase flow",
+    "keyword": "Feature",
+    "name": "End to End Mobilekart validation",
+    "line": 1,
+    "id": "end-to-end-mobilekart-validation",
+    "tags": [],
+    "uri": "mobilekart.feature",
+    "elements": [
+      {
+        "id": "end-to-end-mobilekart-validation;checkout-flow",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "checkout flow",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "open mobilekart page",
+            "result": {
+              "status": "passed",
+              "duration": 3055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "add items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "validate the total price with cart sum price",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select country and checkout",
+            "result": {
+              "status": "passed",
+              "duration": 7286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "validate order placed success message",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-mobilekart-validation;home-page-flow",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "home page flow",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "open home page url",
+            "result": {
+              "status": "passed",
+              "duration": 924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "enter person details",
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "validate the details",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

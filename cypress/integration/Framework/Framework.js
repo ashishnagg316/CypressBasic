@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
-import HomePage from '../../support/pageObjects/HomePage'
-import ProductsPage from '../../support/pageObjects/ProductsPage'
+import HomePage from '../../../support/pageObjects/HomePage'
+import ProductsPage from '../../../support/pageObjects/ProductsPage'
 
 describe('Framework', function()
 {

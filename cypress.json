@@ -6,7 +6,8 @@
     "url": "https://rahulshettyacademy.com/angularpractice/"
   },
   "reporter": "mochawesome",
-  "projectId": "juja6p"
+  "projectId": "juja6p",
+  "testFiles": "**/*.feature"
   
   
 
