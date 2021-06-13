@@ -17,6 +17,7 @@
     "cypress": "^7.5.0",
     "cypress-cucumber-preprocessor": "^4.1.2",
     "cypress-iframe": "^1.0.1",
+    "cypress-sql-server": "^1.0.0",
     "mocha": "^9.0.0",
     "mochawesome": "^6.2.2",
     "multiple-cucumber-html-reporter": "^1.18.0"

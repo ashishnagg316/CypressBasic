@@ -21,3 +21,9 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
   on('file:preprocessor', cucumber())
 }
+/*const sqlServer = require('cypress-sql-server');
+const dbConfig = require('../../cypress.json')
+module.exports = (on, config) => {
+  tasks = sqlServer.loadDBPlugin(dbconfig.db);
+  on('task', tasks);
+}*/
