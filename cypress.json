@@ -7,7 +7,7 @@
   },
   "reporter": "mochawesome",
   "projectId": "juja6p",
-  "testFiles": "**/*.feature"
+  "testFiles": "**/*.*"
   
   
 
