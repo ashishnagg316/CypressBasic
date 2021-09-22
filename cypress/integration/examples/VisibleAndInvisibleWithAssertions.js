@@ -11,6 +11,7 @@ describe('VisibleAndInvisible', function()
         cy.get('@textBox').should('not.be.visible')
         cy.get('#show-textbox').click()
         cy.get('@textBox').should('be.visible')
+        
         //cy.get('@textBox').then(function(content)//promising the method using "then()"
         //{
           //  cy.log(content.text()) 
